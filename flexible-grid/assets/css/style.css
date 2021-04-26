@@ -29,13 +29,14 @@ html {
 background-image:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/7248/grid-1.png");*/
 
 .container {
-  /*background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/7248/grid-1.png");*/
+  background: url("grid.png");
+  max-width: 960px;
   border: 1px solid #000;
   margin: 20px auto;
 }
 
 header.primary {
-  /* 920px */
+  /* 920px  - 95.833%*/
   width: 95.833%;
   background: rgba(0, 0, 0, 0.4);
   /* 20px */
@@ -45,8 +46,8 @@ header.primary {
 }
 
 #content {
-  /* 544px */
-  width: 56.666%;
+  /* 685px */
+  width: 71.354%;
   background: rgba(0, 0, 0, 0.6);
   margin-left: 2.083%;
   padding: 2.173%;
@@ -54,8 +55,8 @@ header.primary {
 }
 
 aside {
-  /*356px*/
-  width: 37.083%;
+  /* 215px */
+  width: 22.395%;
   background: rgba(0, 0, 0, 0.3);
   margin-left: 2.083%;
   padding: 2.173%;
@@ -98,7 +99,7 @@ footer.primary {
 
 @media screen and (min-width: 900px) {
   .container {
-    width: 800px;
+    width: 900px;
   }
 }
 
